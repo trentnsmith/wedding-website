@@ -1,26 +1,25 @@
 import React, { Component } from 'react';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import Story from './components/Story/Story';
+import Events from './components/Events/Events';
+import Registry from './components/Registry/Registry';
+import WeddingParty from './components/WeddingParty/WeddingParty';
+import Footer from './components/Footer/Footer';
 import './App.css';
+
 
 class App extends Component {
   render () {
     return (
       <main className='App'>
-        <section className="temp-title">
-          <h1>Coming Soon...</h1>
-        </section>
-        <section className="ww1">
-          <div className="ww1-a">
-            <img 
-              ids="image" 
-              src="/pictures/wedding.jpg" 
-              alt="jltrent"
-            ></img>
-          </div>
-          <div>
-            <h2>Save the Date!</h2>
-            <h3>8/21/21</h3>
-          </div>
-        </section>
+        <Header/>
+        <Main />
+        <Story />
+        <Events />
+        <Registry />
+        <WeddingParty />
+        <Footer />
       </main>
     );
   };

@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
+import './Header.css';
 
 class Header extends Component {
     render() { 
         return (
-            <header id="header">
+            <header id="header" className="site-header">
                 <nav className="navbar navbar-expand-md">
                     <div className="navbar-brand">
                         Jean Louise &amp; Trent
                     </div>
                     <button id="navToggle" className="navbar-toggle collapsed" type="button">
                         <div className="menu-toggle">
-                            <div className="icon-bar">
-                            </div>
+                            <div className="icon-bar"></div>
                         </div>
                     </button>
                     <div className="navbar-collapse collapse" id="navMain">

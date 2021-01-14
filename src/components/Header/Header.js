@@ -5,7 +5,7 @@ class Header extends Component {
         return (
             <nav className="navbar navbar-expand-md">
                 <div className="navbar-brand">
-                    Jean Louise & Trent
+                    Jean Louise &amp; Trent
                 </div>
                 <button id="navToggle" className="navbar-toggle collapsed" type="button">
                     <div className="menu-toggle">
